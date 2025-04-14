@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Enrollment & Management">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./pngwing.com (14).png">
+    <script src="https://kit.fontawesome.com/ceaf19f0cc.js" crossorigin="anonymous"></script>
+    <title>RegiTrack&reg; - Your Companion</title>
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="page1" id="home">
+        <!-- <div class="cursor"></div> -->
+        <div class="container">
+            <nav class="navbar">
+                <ul class="items">
+                    <img src="https://i.gifer.com/74pZ.gif" alt="">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#studentsform">STUDENT'S FORM</a></li>
+                    <li><a href="#stdrecord">STUDENT'S RECORDS</a></li>
+                    <img src="./moon.png" id="icon" title="dark theme toggle mode" alt="nighttoggle">
+                </ul>
+            </nav>
+            <div>
+                <h4>Welcome To RegiTrack: Student Enrollment & Management</h4>
+                <p>"RegiTrack is an advanced student registration and management system designed to streamline the enrollment process with ease and efficiency. Our system allows institutions to effortlessly register students, maintain accurate records, and manage student data in a structured and organized manner. With a user-friendly interface, it ensures quick data entry, secure storage, and easy access to student details anytime, anywhere. Whether you need to track student information, update records, or generate reports, RegiTrack provides a seamless experience for administrators and students alike. Simplify student enrollment and data management with our powerful, intuitive, and feature-rich platform!" This version is longer, more attractive, and emphasizes the system's efficiency, ease of use, and powerful features.</p>
+            </div>
+            <main class="stddata" id="studentsform">
+                <div class="stdimg">
+                    <video autoplay loop muted>
+                        <source src="./study_video.mp4">
+                    </video>
+                </div>
+                <div class="input">
+                    <form onsubmit="event.preventDefault();" autocomplete="off">
+                        <i class="fa-solid fa-user-tie" style="color: blue;"></i><input type="text" id="name"  placeholder="Enter Your Name" pattern="[A-Za-z\s]+" title="Only alphabets and spaces are allowed" required>
+                        <br>                           
+                        <i class="fa-solid fa-address-card" style="color: red;"></i><input type="number" id="id" placeholder="Enter your Student ID" min="1" required>
+                        <br>                       
+                        <i class="fa-solid fa-envelopes-bulk" style="color: yellow;"></i><input type="email" id="email" placeholder="Enter Your Email ID" required>
+                        <br>
+                        <i class="fa-solid fa-phone-volume" style="color: green;"></i><input type="text" id="contact" placeholder="Enter Your Contact Number" pattern="[0-9]{10}" title="Only 10-digit numbers allowed" required>
+                        <br>
+                        <button type="submit" class="btn">SUBMIT</button>
+                        <button type="reset" class="btn">RESET</button>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </header>
+    <section class="page2" id="stdrecord">
+        <main class="container">
+            <h4>Student's Data And Records</h4>
+            <div class="entry">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Student's Name</th>
+                            <th>Student's ID</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody class="record"></tbody>
+                </table>                
+            </div>
+        </main>
+        <footer class="footer container">
+            <div class="footerbox">
+                <p>Copyright &copy; 2025. <small> All Rights Reserved.</small></p>
+            </div> 
+        </footer>
+        <div class="goup"><a href="#home"><i class="fa-solid fa-arrow-up fa-3x up"></i></a></div>
+        
+    </section>
+    
+
+
+
+
+
+<!-- -----------------------JavaScript Section--------------------------------------------- -->
+    <script src="./script.js">
+    </script>
+</body>
+</html>
