@@ -19,6 +19,7 @@ body, html{
     --e-: linear-gradient(45deg, rgb(194, 194, 194),rgb(240, 240, 240),rgb(224, 224, 224));
     --f-: rgb(18, 18, 19);
 }
+/* -------------------toggle  mode----------------------  */
 .dark{
     --a-: gray;
     --b-: white;
@@ -27,6 +28,7 @@ body, html{
     --e-: black;
     --f-: white;
 }
+/* -------------------scroll bar----------------------  */
 ::-webkit-scrollbar{
     width: .8rem;
 }
@@ -37,6 +39,7 @@ body, html{
     border-radius: 1rem;
     background: var(--f-);
 }
+/* -------------------page 1 ----------------------  */
 .page1, .page2{
     background: var(--e-);
     width: 100%;
@@ -46,6 +49,7 @@ body, html{
     width: 80vw;
     margin: auto;
 }
+/* -------------------navbar----------------------  */
 .navbar{
     height: 10vh;
     padding-right: 2rem;
@@ -128,7 +132,6 @@ p{
     max-width: 100vw;
     height: 80vh;
 } 
-
 .input input{
     margin-left: 1.1rem;
     width: 80%;
@@ -214,21 +217,7 @@ button{
 td:nth-child(5){
     border: none;
 }
-/* .cursor{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    border: 2px solid var(--d-);
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
-    transition: all linear .2s;
-    pointer-events: none;
-    mix-blend-mode: difference;
-} */
-/* --------------------------------------------------------------------------------- */
+/* -----------------------------------page 2---------------------------------------------- */
 .page2{
     background: url(./pexels-eddie-oliveira-1595597684-27393275.jpg);
     background-position: center;
@@ -276,6 +265,7 @@ tr, th, td{
     border-radius: .5rem;
     padding: .2rem;
 }
+/* -------------------footer-----------------------------------------  */
 .footerbox p{
     text-align: center;
     position: relative;
@@ -312,7 +302,7 @@ tr, th, td{
         transform: translate(-50%, -50%) translateY(-20px);
     }
 }
-/* ------------------------------------------------------------------------------------ */
+/* -----------------------------preloader------------------------------------------------------- */
 #preloader{
     background: #FBFAFB url(./Twyn.gif) no-repeat center center;
     height: 100%;
@@ -321,7 +311,7 @@ tr, th, td{
     position: fixed;
     z-index: 100;
 }
-/* -------------------------------------------------------------------------- */
+/* -------------------------------media queries------------------------------------------- */
 
 @media (max-width: 768px){
     .items img{
@@ -457,3 +447,4 @@ tr, th, td{
         padding: 0.09px;
     }
 }
+/* -----------------------------------css end -----------------------------   */

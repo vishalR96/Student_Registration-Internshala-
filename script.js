@@ -8,14 +8,10 @@ icon.onclick = function(){
         icon.src = "./moon.png";
     }
 }
-
 // ----------------------------------------------------------------------------------------------------------------
-// let body = document.querySelector("body")
-// let cursor = document.querySelector(".cursor")
-// body.addEventListener("mousemove", function(event){
-//     cursor.style.left = event.x +"px"
-//     cursor.style.top = event.y +"px"
-// })
+
+
+
 // ----javascript code for preloader-------------------------------------------------------------------------------
 
 let a = document.getElementById("preloader")
@@ -24,6 +20,8 @@ window.addEventListener("load", function(){
         a.style.display = "none";
     }, 1000);
 })
+
+
 
 
 // -----javascript code for forms----------------------------------------------------------------------------------
@@ -97,3 +95,5 @@ form.addEventListener("submit", function (event) {
 });
 
 load();
+
+// ------------------------ js code ends -----------------------------  
