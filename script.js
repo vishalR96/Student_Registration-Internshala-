@@ -1,4 +1,5 @@
-// ---javascript code for day/night toggle--=---------------------------------------------------------------------
+// -----------------------JS CODE STARTS FROM HERE ------------------------------- 
+// -----------------------javascript code for day/night toggle--=---------------------------------------------------------------------
 var icon = document.getElementById("icon")
 icon.onclick = function(){
     document.body.classList.toggle("dark");
@@ -8,14 +9,14 @@ icon.onclick = function(){
         icon.src = "./moon.png";
     }
 }
-// ----javascript code for preloader-------------------------------------------------------------------------------
+// ------------------------javascript code for preloader-------------------------------------------------------------------------------
 let a = document.getElementById("preloader")
 window.addEventListener("load", function(){
     setTimeout(() => {
         a.style.display = "none";
     }, 1000);
 })
-// -----javascript code for forms-------------------------------------------------------------------------------
+// -------------------------javascript code for forms-------------------------------------------------------------------------------
 const form = document.querySelector("form");
 const record = document.querySelector(".record");
 
@@ -53,7 +54,7 @@ function attachListeners() {
         });
     });
 }
-
+// -------------------ADDING Listeners--------------------------- 
 form.addEventListener("submit", function (event) {
 
     let name = document.getElementById("name").value.trim();

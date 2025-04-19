@@ -10,12 +10,13 @@
     <title>RegiTrack&reg; - Your Companion</title>
 </head>
 <body>
+    <!-- ------------------------------HTML STARTS FROM HERE------------------------------ -->
     <!-- -------------preloader------------------------------------------------   -->
     <div id="preloader"></div>    
     <!-- ------------------page 1 --------------------------------------------------  -->
     <header class="page1" id="home">
-        <!-- <div class="cursor"></div> -->
         <div class="container">
+            <!-- ---------------------------NAVBAR-------------------------------------- -->
             <nav class="navbar">
                 <ul class="items">
                     <img src="https://i.gifer.com/74pZ.gif" alt="">
@@ -25,16 +26,19 @@
                     <img src="./moon.png" id="icon" title="dark theme toggle mode" alt="nighttoggle">
                 </ul>
             </nav>
+            <!-- ------------------------------CONTENT--------------------------  -->
             <div>
                 <h4>Welcome To RegiTrack: Student Enrollment & Management</h4>
                 <p>"RegiTrack is an advanced student registration and management system designed to streamline the enrollment process with ease and efficiency. Our system allows institutions to effortlessly register students, maintain accurate records, and manage student data in a structured and organized manner. With a user-friendly interface, it ensures quick data entry, secure storage, and easy access to student details anytime, anywhere. Whether you need to track student information, update records, or generate reports, RegiTrack provides a seamless experience for administrators and students alike. Simplify student enrollment and data management with our powerful, intuitive, and feature-rich platform!" This version is longer, more attractive, and emphasizes the system's efficiency, ease of use, and powerful features.</p>
             </div>
             <main class="stddata" id="studentsform">
                 <div class="stdimg">
+                    <!-- --------------------------VIDEO ATTACHED ------------------------  -->
                     <video autoplay loop muted>
                         <source src="./study_video.mp4">
                     </video>
                 </div>
+                <!-- -----------------------------ICONS ADDED IN FORMS---------------  -->
                 <div class="input">
                     <form onsubmit="event.preventDefault();" autocomplete="off">
                         <i class="fa-solid fa-user-tie" style="color: blue;"></i><input type="text" id="name"  placeholder="Enter Your Name" pattern="[A-Za-z\s]+" title="Only alphabets and spaces are allowed" required>
@@ -52,11 +56,13 @@
             </main>
         </div>
     </header>
+    <!-- ----------------------------PAGE 1 ENDS HERE ------------------------------  -->
        <!-- ------------------page 2 --------------------------------------------------  -->
     <section class="page2" id="stdrecord">
         <main class="container">
             <h4>Student's Data And Records</h4>
             <div class="entry">
+                <!-- -----------------------STUDENTS ENTRY -----------------------------  -->
                 <table border="1">
                     <thead>
                         <tr>
@@ -72,6 +78,7 @@
                 </table>                
             </div>
         </main>
+        <!-- --------------------PAGE 2 ENDS HERE -----------------------------  -->
            <!-- ------------------page 3 --------------------------------------------------  -->
         <footer class="footer container">
             <div class="footerbox">
@@ -80,12 +87,9 @@
         </footer>
         <div class="goup"><a href="#home"><i class="fa-solid fa-arrow-up fa-3x up"></i></a></div>
     </section>
+    <!-- -----------------------------FOOTER SECTION ENDS------------------------  -->
     
-
-
-
-
-
+    
 <!-- -----------------------JavaScript Section--------------------------------------------- -->
     <script src="./script.js">
     </script>
