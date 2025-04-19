@@ -7,6 +7,13 @@ This is a Student Registration System.
 - You can Edit & Delete records
 - Data is shown in a table format
 - Responsive design
+- It supports Day Night toggle mode also.
+
+
+## Tech Stack
+- **HTML5**
+- **CSS**
+- **JavaScript (ES6)**
 
 
 ## How to Use it
@@ -22,5 +29,6 @@ Vishal Rajpurohit.
 
 ##My Git Hub Link
 https://github.com/vishalR96
+
 
 ## My Project  Link :- https://vishalr96.github.io/Student_Registration-Internshala-/
